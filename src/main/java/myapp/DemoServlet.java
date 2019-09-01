@@ -20,15 +20,24 @@ import java.io.IOException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.Random;
+
+
 
 public class DemoServlet extends HttpServlet {
+
+  public DemoServlet(){
+    super();
+  }
+
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
 
     // GENERATOR THE RANDOM NUMBER AND STORE IT
-    int num = 6969;
+    
+    int num = new myapp.RandomNumGen().getNumber();
     resp.getWriter().println("{ \"name\":" +"\""  + Integer.toString(num) + "\" }");
   }
 }
