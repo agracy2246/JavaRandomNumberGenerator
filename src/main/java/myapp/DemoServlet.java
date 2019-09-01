@@ -26,6 +26,9 @@ public class DemoServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp)
       throws IOException {
     resp.setContentType("text/plain");
-    resp.getWriter().println(69);
+
+    // GENERATOR THE RANDOM NUMBER AND STORE IT
+    int num = 6969;
+    resp.getWriter().println("{ \"name\":" +"\""  + Integer.toString(num) + "\" }");
   }
 }

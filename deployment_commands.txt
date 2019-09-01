@@ -1,0 +1,2 @@
+run local server= mvn appengine:run
+deploy = mvn appengine:deploy
