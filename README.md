@@ -8,11 +8,11 @@ This program is written in Java and being hosted on Google's app engine. It will
 1. Visit [https://console.cloud.google.com](https://console.cloud.google.com/)
 2. Select an existing google account or create a new one.
 3. You are at the "Dasboard", from here click the hamburger symbol. Then select App Engine-> Dashboard.
-![]([https://raw.githubusercontent.com/agracy2246/PyRandomNumberGenerator/master/doc/1_AppEngine_DashBoard_Start.png](https://raw.githubusercontent.com/agracy2246/PyRandomNumberGenerator/master/doc/1_AppEngine_DashBoard_Start.png))
+![](doc/1_AppEngine_DashBoard_Start.png)
 4. Click the down arrow next to "MyFirstProject", then select "New Project" from the top right corner. ***Note: Take down your project id at this point. it is located in this same window after your project is creted on the right hand side.**
-![NewProject](https://www.dropbox.com/home?preview=2_CreateProjectMenu.png)
+![](doc/2_CreateProjectMenu.png)
 5. Select "Activate Cloud Shell" button in the top right on the Nav bar.
-![ActivateCloudShell](https://www.dropbox.com/home?preview=4_OpenCloudShell.png)
+![](doc/4_OpenCloudShell.png)
 6. Copy this into the command line: 
     `git clone https://github.com/agracy2246/JavaRandomNumberGenerator` 
 7. Change to the JavaRandomNumberGenerator directory by copying this code into the command line: `cd JavaRandomNumberGenerator`
