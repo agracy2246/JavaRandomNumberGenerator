@@ -38,6 +38,7 @@ public class DemoServlet extends HttpServlet {
     // GENERATOR THE RANDOM NUMBER AND STORE IT
     
     int num = new myapp.RandomNumGen().getNumber();
-    resp.getWriter().println("{ \"name\":" +"\""  + Integer.toString(num) + "\" }");
+    //resp.getWriter().println("{ \"name\":" +"\""  + Integer.toString(num) + "\" }");
+    resp.getWriter().print(Integer.toString(num));
   }
 }
