@@ -1,7 +1,7 @@
 
 # JavaRandomNumberGenerator
 
-This program is written in Java and being hosted on Google's app engine. It will send a request to the host server which will return a random number between 1 and 1000000. To access this app go to http://Java-Random-Number-Generator.appspot.com
+This program is written in Java and being hosted on Google's app engine. It will send a request to the host server which will return a random number between 1 and 1000000. To access this app go to http://java-random-number-generator.appspot.com/demo
 
 ## How to deploy JavaRandomNumberGenerator
 
